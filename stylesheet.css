@@ -8,9 +8,7 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 90%;
 }
-.source {
-    font-style: italic;
-}
+
 @media screen {
     .inlineform {
         display:inline-block;
@@ -28,6 +26,10 @@ body {
     }
     #searchbutton {
         width:40px; 
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg");
+        background-size: 13px;
+        background-repeat: no-repeat;
+        background-position: 10px center;
     }
 
     .button {
@@ -42,31 +44,6 @@ body {
         background: #6E4A26; 
     }
 
-    .spacebutton {
-        margin-left: 65px;
-        width:70px; 
-    }
-    .nospacebutton {
-        margin-left: 5px;
-        width:70px; 
-    }
-
-    .add-entry {
-        font-size: 0.9em;
-        border-bottom: 1px solid #ccc;
-    }
-    .add-entry dl {
-        font-weight: bold;
-    }
-    .flash {
-        background: #cee5F5;
-        padding: 0.5em;
-        border: 1px solid #aacbe2;
-    }
-    .error {
-        background: #f0d6d6;
-        padding: 0.5em;
-    }
     #resultlist {
         float: left;
         width: 200px;
@@ -75,7 +52,7 @@ body {
         padding-left: 5px;
         padding-right: 5px;
     }
-    #resultlist ul {
+    #resultlist ol {
         list-style: none;
         padding-left: 0;
     }
@@ -119,40 +96,6 @@ body {
         font-size: 2em;
         float: left;
     }
-    #logininfo {
-        padding: 10px;
-        text-align: right;
-        font-size: 80%;
-    }
-    #logininfo a {
-        color: #fffcf1;
-    }
-    .login_form ul {
-        width: 750px;
-        list-style-type: none;
-        list-style-position: outside;
-        margin: 0px;
-        padding: 0px;
-    }
-    .login_form li {
-        padding: 12px;
-        position: relative;
-    }
-    .login_form label {
-        width: 100px;
-        margin-top: 3px;
-        display: inline-block;
-        float: left;
-        padding: 3px;
-    }
-    .login_form input {
-        height: 20px;
-        width: 250px;
-        padding: 5px 8px;
-    }
-    .login_form button {
-        margin-left: 106px;
-    }
 
     #searchbar {
         background: #e0a975;
@@ -161,21 +104,6 @@ body {
         padding: 10px;
         clear: both;
         font-size: 80%;
-    }
-    .flashes {
-        background: #99CC99;
-        border: 1px solid #009900;
-        padding: 10px;
-        margin: 10px;
-        border-radius: 3px;
-    }
-    .flashmsg {
-        float: left;
-        line-height: 1;
-    }
-    .flashclose {
-        float: right;
-        line-height: 1;
     }
     .hidden {
         display: none;
@@ -187,36 +115,6 @@ body {
         background: #FFFF00;
     }
     .unselected {}
-    .add_form ul, .edit_form ul {
-        width: 750px;
-        list-style-type: none;
-        list-style-position: outside;
-        margin: 0px;
-        padding: 0px;
-    }
-    .add_form li, .edit_form li {
-        padding: 12px;
-        position: relative;
-    }
-    .add_form label, .edit_form label {
-        width: 100px;
-        margin-top: 3px;
-        display: inline-block;
-        float: left;
-        padding: 3px;
-    }
-    .add_form input, edit_form input {
-        height: 20px;
-        width: 250px;
-        padding: 5px 8px;
-    }
-    .add_form textarea, edit_form textarea {
-        padding: 8px;
-        width: 400px;
-    }
-    .add_form button, .edit_form button {
-        margin-left: 106px;
-    }
 }
 @media print {
     #topbar, #searchbar, #resultlist, .hidden {

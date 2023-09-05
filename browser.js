@@ -49,11 +49,30 @@ function ParseRecipes(responses) {
     recipe_data = responses.map(x => ParseMarkdown(x));  // TODO: global variable fishiness
 }
 
+// returns an ordered list of recipe ids
+function Search(text) {
+    // TODO: make the search better; this is just a placeholder.
+    var matching_indices = []
+    for (const [idx, recipe] of recipe_data.entries()) {
+        if (recipe.name.includes(text)) {
+            matching_indices.push(idx);
+        }
+    }
+    return matching_indices;
+}
+
 function MakeResultList(resultids, recipes) {
     let result_div = document.getElementById("resultlist");
-    let result_list = document.createElement("ul");
+
+    // clear old results
+    while (result_div.hasChildNodes()) {
+        result_div.removeChild(result_div.lastChild);
+    }
+
+    let result_list = document.createElement("ol");
     result_div.appendChild(result_list);
 
+    // TODO: revisit for .. of syntax: only good for properties? order not defined?
     for (id of resultids) {
         let item = document.createElement("li");
         let recipe = recipes[id];
@@ -114,14 +133,25 @@ function ShowRecipe(recipe) {
     oldResult.replaceWith(resultDiv);
 }
 
-function SetupPage() {
-    // temporary hack: list of indices of recipes to return
-    let resultids = [0, 1];
-
+function SetupResults(resultids) {
     MakeResultList(resultids, recipe_data);
 
     let recipe = recipe_data[resultids[0]];
     ShowRecipe(recipe);
+}
+
+function doSearch() {
+    let searchtext = document.getElementById("searchtext");
+    if (searchtext.value !== "") {
+        let resultids = Search(searchtext.value);
+
+        SetupResults(resultids);
+    }
+}
+
+function SetupPage() {
+    let searchbutton = document.getElementById("searchbutton");
+    searchbutton.addEventListener("click", doSearch);
 }
 
 function ReadRecipes() {
