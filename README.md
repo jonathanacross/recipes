@@ -12,7 +12,6 @@ then this will provide a nice UI to search and display them.
 * do validation for recipe reading
 * add script to update recipe list (validation here, too?)
 * improve search icon in button
-* change search to use lunrjs
 * organize files
 * lint the js code
 * support multi-recipe markdown files?
@@ -28,7 +27,7 @@ then this will provide a nice UI to search and display them.
 
 ## markdown features to support
 
-* ### headings, e.g., for ingredient lists
+* "###" headings, e.g., for ingredient lists
 * pictures?
 * html links
 * lists

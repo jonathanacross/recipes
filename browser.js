@@ -2,13 +2,18 @@
 
 function splitLines(t) { return t.split(/\r\n|\r|\n/); }
 
-function ParseMarkdown(recipeMarkdown) {
+function ParseMarkdown(recipeMarkdown, id) {
     let lines = splitLines(recipeMarkdown);
     let recipeData = {
+        id: id,
         name: "ERROR: RECIPE HAS NO NAME",
         meta: [],
+        // raw lines from markdown
         ingredients: [],
-        directions: []
+        directions: [],
+        // simple concatenated text stream from markdown 
+        ingredients_text: "",
+        directions_text: ""
     };
 
     let mode = "skip";
@@ -41,23 +46,32 @@ function ParseMarkdown(recipeMarkdown) {
             }
         }
     }
+    recipeData.ingredients_text = recipeData.ingredients.join(' ');
+    recipeData.directions_text = recipeData.directions.join(' ');
     return recipeData;
 }
 
 function ParseRecipes(responses) {
-    console.log("parserecipes");
-    recipe_data = responses.map(x => ParseMarkdown(x));  // TODO: global variable fishiness
+    recipe_data = responses.map((x, idx) => ParseMarkdown(x, idx));  // TODO: global variable fishiness
+    recipe_index = lunr(function () {
+        this.ref('id')
+        this.field('name', {boost: 5})
+        this.field('ingredients_text', {boost: 2})
+        this.field('directions_text')
+
+        recipe_data.forEach(function (doc) { this.add(doc) }, this)
+    })
 }
 
 // returns an ordered list of recipe ids
 function Search(text) {
-    // TODO: make the search better; this is just a placeholder.
-    var matching_indices = []
-    for (const [idx, recipe] of recipe_data.entries()) {
-        if (recipe.name.includes(text)) {
-            matching_indices.push(idx);
-        }
-    }
+    let results = recipe_index.search(text);
+    // results looks like:  
+    //   [{ref: '27', score: 4.381},
+    //    {ref: '25', score: 3.309},
+    //    {ref: '0', score: 2.263},
+    //    {ref: '22', score: 2.227}]
+    let matching_indices = results.map(result => result.ref);
     return matching_indices;
 }
 
