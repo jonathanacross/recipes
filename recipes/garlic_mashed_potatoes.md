@@ -4,15 +4,15 @@ Takes 2+ hours.
 Makes 6-8 servings.
 
 ## Ingredients
-8 potatoes
-1 head of garlic
-1 can of chicken broth
-olive oil
-1 tablespoon butter
-1-2 carrots
-1 package frozen spinach
-salt
-pepper
+* 8 potatoes
+* 1 head of garlic
+* 1 can of chicken broth
+* olive oil
+* 1 tablespoon butter
+* 1-2 carrots
+* 1 package frozen spinach
+* salt
+* pepper
 
 ## Directions
 First, slice off the top of the garlic and cut to expose all the cloves. Pour on olive oil, and wrap tightly in aluminum foil. Bake at 350° for 60-70 minutes.  Then, press to extract the garlic and mash up with a fork.

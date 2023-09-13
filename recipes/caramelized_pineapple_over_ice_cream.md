@@ -3,14 +3,14 @@
 Makes 6-8 servings.
 
 ## Ingredients
-1 pineapple
-1/2 cup butter
-3/4 cup brown sugar
-1 cup fresh squeezed orange juice
-timid dash of cinnamon
-1/4 cup macadamia nuts, coarsely chopped
-2-3 tablespoons rum
-decent vanilla ice cream
+* 1 pineapple
+* 1/2 cup butter
+* 3/4 cup brown sugar
+* 1 cup fresh squeezed orange juice
+* timid dash of cinnamon
+* 1/4 cup macadamia nuts, coarsely chopped
+* 2-3 tablespoons rum
+* decent vanilla ice cream
 
 ## Directions
 Obtain a nice pineapple and cut it. It doesn't matter exactly what shape you choose for your pineapple pieces. Some people like wedges, others rings, while I went for chunks because it cooks a bit faster. Set the pineapple aside.

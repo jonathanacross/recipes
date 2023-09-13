@@ -6,11 +6,11 @@ Ready In: 1 Hour 20 Minutes
 Servings: 8
 
 ## Ingredients
-2 eggs
-1 cup milk
-2/3 cup all-purpose flour
-1 pinch salt
-1 1/2 teaspoons vegetable oil
+* 2 eggs
+* 1 cup milk
+* 2/3 cup all-purpose flour
+* 1 pinch salt
+* 1 1/2 teaspoons vegetable oil
 
 ## Directions
 

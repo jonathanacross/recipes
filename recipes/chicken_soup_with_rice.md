@@ -4,22 +4,22 @@ Takes 60-80 minutes.
 Makes about 6 servings.
 
 ## Ingredients
-2 chicken breasts
-1/4 cup butter
-1 large onion
-3 cloves garlic
-1 1/2 cups celery
-1 red pepper
-2 carrots
-1 bay leaf
-1 1/2 cups rice
-9 cups chicken stock or broth
-15 ounce can garbanzo beans
-2 small cans chopped green chilies
-1 teaspoon ground cumin
-salt
-pepper
-pepper jack cheese
+* 2 chicken breasts
+* 1/4 cup butter
+* 1 large onion
+* 3 cloves garlic
+* 1 1/2 cups celery
+* 1 red pepper
+* 2 carrots
+* 1 bay leaf
+* 1 1/2 cups rice
+* 9 cups chicken stock or broth
+* 15 ounce can garbanzo beans
+* 2 small cans chopped green chilies
+* 1 teaspoon ground cumin
+* salt
+* pepper
+* pepper jack cheese
 
 ## Directions
 Poach the chicken breasts for about 10 minutes and cut into chunks.

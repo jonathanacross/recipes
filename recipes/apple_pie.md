@@ -3,20 +3,22 @@
 fits a 9” pie pan
 
 ## Ingredients
-Filling:
-5-6 medium granny smith apples
-3/4 cup sugar
-2 tablespoons white flour
-1/2 teaspoon cinnamon
-1/4 teaspoon salt
-1/8 teaspoon nutmeg
-1 1/2 tablespoons lemon juice
 
-Crust:
-3 cups flour
-1/2 teaspoon salt
-1 cup shortening (coconut oil works, too)
-6-7 tablespoons cold water
+### Filling:
+
+* 5-6 medium granny smith apples
+* 3/4 cup sugar
+* 2 tablespoons white flour
+* 1/2 teaspoon cinnamon
+* 1/4 teaspoon salt
+* 1/8 teaspoon nutmeg
+* 1 1/2 tablespoons lemon juice
+
+### Crust:
+* 3 cups flour
+* 1/2 teaspoon salt
+* 1 cup shortening (coconut oil works, too)
+* 6-7 tablespoons cold water
 
 ## Directions
 Peel the apples, slice into quarter-inch thickness.  In a large bowl, mix all the filling ingredients.

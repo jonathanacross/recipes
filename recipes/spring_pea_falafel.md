@@ -4,18 +4,18 @@ Serves 2
 
 ## Ingredients
 
-3/4 cup sweet peas
-1/4 cup diced yellow onion
-1 tablespoon flour
-1 tablespoon chopped parsley
-1 clove garlic, minced
-1/2 teaspoon ground coriander
-pinch cayenne pepper
-1/4 teaspoon baking powder
-1 tablespoon lemon juice
-1/4 teaspoon sea salt
-1 tablespoon coconut oil
-bibb lettuce (alternative: arugula)
+* 3/4 cup sweet peas
+* 1/4 cup diced yellow onion
+* 1 tablespoon flour
+* 1 tablespoon chopped parsley
+* 1 clove garlic, minced
+* 1/2 teaspoon ground coriander
+* pinch cayenne pepper
+* 1/4 teaspoon baking powder
+* 1 tablespoon lemon juice
+* 1/4 teaspoon sea salt
+* 1 tablespoon coconut oil
+* bibb lettuce (alternative: arugula)
 
 ### Minted Yogurt
 
