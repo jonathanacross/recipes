@@ -6,19 +6,19 @@ Makes about 4 servings.
 ## Ingredients
 
 ### Fondue
-½ pound Gruyere (get good cheese!)
-½ pound Emmentaler
-2½ cups dry white wine (e.g. Alsatian Riesling)
-2-3 cloves of garlic
-cornstarch
-1-2 tablespoons kirsch
-white pepper
+* 1/2 pound Gruyere (get good cheese!)
+* 1/2 pound Emmentaler
+* 2 1/2 cups dry white wine (e.g. Alsatian Riesling)
+* 2-3 cloves of garlic
+* cornstarch
+* 1-2 tablespoons kirsch
+* white pepper
 
 ### Dippings
-baby potatoes
-french bread
-cornichons
-pickled onions
+* baby potatoes
+* french bread
+* cornichons
+* pickled onions
 
 ## Directions
 Cut the garlic into halves. Simmer the wine and garlic together for about five minutes, and then remove the garlic (which may be thrown away).

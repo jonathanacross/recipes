@@ -2,14 +2,14 @@
 
 ## Ingredients
 
-1 head cauliflower, chopped into bite size pieces
-1/2 cup brown rice flour
-1/2 cup water
-pinch of salt
-pinch of granulated garlic powder
-non-stick spray
-1 teaspoon butter
-1/2 cup frank's read hot sauce
+* 1 head cauliflower, chopped into bite size pieces
+* 1/2 cup brown rice flour
+* 1/2 cup water
+* pinch of salt
+* pinch of granulated garlic powder
+* non-stick spray
+* 1 teaspoon butter
+* 1/2 cup frank's read hot sauce
 
 ## Directions
 

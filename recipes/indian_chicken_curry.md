@@ -4,20 +4,20 @@ Takes 1.5 hours
 Makes 3 servings
 
 ## Ingredients
-1 onion
-3 cloves garlic
-2 chicken breasts
-2 tomatoes
-juice from 1 lime
-1 teaspoon fresh mint
-2 teaspoons ginger
-1 jalapeno pepper
-2 teaspoons cumin
-1 teaspoon coriander
-1 teaspoon cilantro
-1 teaspoon tumeric
-0.5 teaspoon chili powder
-0.5 teaspoon red pepper
+* 1 onion
+* 3 cloves garlic
+* 2 chicken breasts
+* 2 tomatoes
+* juice from 1 lime
+* 1 teaspoon fresh mint
+* 2 teaspoons ginger
+* 1 jalapeno pepper
+* 2 teaspoons cumin
+* 1 teaspoon coriander
+* 1 teaspoon cilantro
+* 1 teaspoon tumeric
+* 0.5 teaspoon chili powder
+* 0.5 teaspoon red pepper
 
 ## Directions
 

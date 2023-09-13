@@ -8,22 +8,22 @@ Ready In: 2 Hrs 45 Min
 
 ## Ingredients
 
-1/2 cup coconut milk
-1 clove garlic, minced
-1 teaspoon curry powder
-1 1/2 teaspoons brown sugar
-1/2 teaspoon salt
-1/2 teaspoon ground black pepper
-3/4 pound skinless, boneless chicken breast halves - cut into 1 inch strips
-1 cup coconut milk
-1 tablespoon curry powder
-1/2 cup creamy peanut butter
-3/4 cup chicken stock
-1/4 cup brown sugar
-2 tablespoons lemon juice
-1 teaspoon soy sauce
-Salt to taste
-10 (6 inch) wooden skewers, or as needed, soaked in water for 30 minutes
+* 1/2 cup coconut milk
+* 1 clove garlic, minced
+* 1 teaspoon curry powder
+* 1 1/2 teaspoons brown sugar
+* 1/2 teaspoon salt
+* 1/2 teaspoon ground black pepper
+* 3/4 pound skinless, boneless chicken breast halves - cut into 1 inch strips
+* 1 cup coconut milk
+* 1 tablespoon curry powder
+* 1/2 cup creamy peanut butter
+* 3/4 cup chicken stock
+* 1/4 cup brown sugar
+* 2 tablespoons lemon juice
+* 1 teaspoon soy sauce
+* Salt to taste
+* 10 (6 inch) wooden skewers, or as needed, soaked in water for 30 minutes
 
 ## Directions
 1. Stir together 1/2 cup coconut milk, garlic, 1 teaspoon curry powder, brown sugar, salt, and pepper until the sugar has dissolved. Toss marinade with the chicken, cover, and marinate for at least 2 hours.

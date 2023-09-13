@@ -1,13 +1,13 @@
 # Roasted Citrus Chicken
 
 ## Ingredients
-2 chicken legs
-zest and juice of 1/2 lemon
-zest and juice of 1/2 orange
-1 tablespoon grated ginger
-2 tablespoons olive oil
-salt and pepper to taste
-1 tablespoon honey
+* 2 chicken legs
+* zest and juice of 1/2 lemon
+* zest and juice of 1/2 orange
+* 1 tablespoon grated ginger
+* 2 tablespoons olive oil
+* salt and pepper to taste
+* 1 tablespoon honey
 
 ## Directions
 

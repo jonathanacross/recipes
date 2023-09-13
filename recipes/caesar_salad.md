@@ -5,26 +5,26 @@ Makes 6 servings
 ## Ingredients
 
 Salad:
-Romaine lettuce
-Cucumber
-Grape tomatoes
-Croutons
-Red onion
-Chicken breasts
-Parmesan cheese
-Lemon
-Olives
+* Romaine lettuce
+* Cucumber
+* Grape tomatoes
+* Croutons
+* Red onion
+* Chicken breasts
+* Parmesan cheese
+* Lemon
+* Olives
 
 Dressing:
-6 cloves garlic
-3/4 cup mayonnaise
-5 anchovy fillets
-2 tablespoons grated Parmesan cheese
-1 teaspoon Worcestershire sauce
-1 teaspoon Dijon mustard
-1 tablespoon lemon juice
-salt to taste
-ground black pepper to taste
+* 6 cloves garlic
+* 3/4 cup mayonnaise
+* 5 anchovy fillets
+* 2 tablespoons grated Parmesan cheese
+* 1 teaspoon Worcestershire sauce
+* 1 teaspoon Dijon mustard
+* 1 tablespoon lemon juice
+* salt to taste
+* ground black pepper to taste
 
 ## Directions
 

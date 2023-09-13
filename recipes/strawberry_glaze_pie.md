@@ -4,13 +4,13 @@ Takes a while, plus 2 hours cooling.
 Makes 6-8 servings.
 
 ## Ingredients
-1 pie crust
-1-1 1/2 quarts strawberries
-1 nine-inch pie shell
-3 ounces cream cheese (Philadelphia brand is best)
-3 tablespoons cornstarch
-1 cup sugar
-whipped cream/vanilla ice cream
+* 1 pie crust
+* 1-1 1/2 quarts strawberries
+* 1 nine-inch pie shell
+* 3 ounces cream cheese (Philadelphia brand is best)
+* 3 tablespoons cornstarch
+* 1 cup sugar
+* whipped cream/vanilla ice cream
 
 ## Directions
 Bake a single 9" pie shell and cool.  You can buy frozen pie crusts at the store.  They aren't as good, but they are easier if you don't have time to fool around!

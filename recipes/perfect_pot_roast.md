@@ -6,15 +6,15 @@ Cook: 4 hr 15 min
 Yield: 6 servings
 
 ## Ingredients
-Salt and freshly ground black pepper
-One 3 to 5-pound chuck roast
-2 or 3 tablespoons olive oil
-2 whole onions, peeled and halved
-6 to 8 whole carrots, unpeeled, cut into 2-inch pieces
-1 cup red wine, optional
-3 cups beef broth
-2 or 3 sprigs fresh rosemary
-2 or 3 sprigs fresh thyme
+* Salt and freshly ground black pepper
+* One 3 to 5-pound chuck roast
+* 2 or 3 tablespoons olive oil
+* 2 whole onions, peeled and halved
+* 6 to 8 whole carrots, unpeeled, cut into 2-inch pieces
+* 1 cup red wine, optional
+* 3 cups beef broth
+* 2 or 3 sprigs fresh rosemary
+* 2 or 3 sprigs fresh thyme
 
 ## Directions
 Preheat the oven to 275 degrees F.

@@ -3,18 +3,18 @@
 What we love about this recipe - apart from the fact that it tastes AMAZING - is that there are no complicated techniques involved in its preparation. You just put everything in one bowl, mix it all together, and you're done! If you have little baking experience and you're worried about making a mess of baby's first birthday cake, then this is the recipe to try - it's almost foolproof!
 
 ## Ingredients
-4 oz (1 cup) old fashioned rolled oats
-5 oz (1 1/4 cups) whole wheat flour
-4 oz (1 cup) all purpose flour
-1 tsp baking soda
-2 tsp baking powder
-2 1/2 tsp cinnamon
-good pinch of salt
-6 medium ripe bananas, peeled and mashed
-4 fl oz (1/2 cup) unsalted butter, melted
-1/2 cup blueberries, chopped (use fresh, or frozen berries thawed and drained)
-4 eggs, beaten well
-6 fl oz (3/4 cup) frozen unsweetened apple juice concentrate, thawed
+* 4 oz (1 cup) old fashioned rolled oats
+* 5 oz (1 1/4 cups) whole wheat flour
+* 4 oz (1 cup) all purpose flour
+* 1 tsp baking soda
+* 2 tsp baking powder
+* 2 1/2 tsp cinnamon
+* good pinch of salt
+* 6 medium ripe bananas, peeled and mashed
+* 4 fl oz (1/2 cup) unsalted butter, melted
+* 1/2 cup blueberries, chopped (use fresh, or frozen berries thawed and drained)
+* 4 eggs, beaten well
+* 6 fl oz (3/4 cup) frozen unsweetened apple juice concentrate, thawed
 
 You can use regular apple juice concentrate instead for a sweeter result, but do bear in mind that the recipe will be a higher in sugar than if you use the unsweetened variety. 
 

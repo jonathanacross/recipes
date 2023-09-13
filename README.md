@@ -9,8 +9,7 @@ then this will provide a nice UI to search and display them.
 * return should do search
 * highlight first result automatically
 * handle the case where there are no results
-* do validation for recipe reading
-* add script to update recipe list (validation here, too?)
+* add script to update recipe list and do validation
 * improve search icon in button
 * organize files
 * lint the js code
@@ -24,11 +23,3 @@ then this will provide a nice UI to search and display them.
 * check that the level is ## for ingredients/directions (equivalently, there should be no recipes named "Ingredients" etc.
 * check that there are no cases of '#  ', or normalize these away
 * check that the recipe name matches the file name
-
-## markdown features to support
-
-* "###" headings, e.g., for ingredient lists
-* pictures?
-* html links
-* lists
-* paragraph breaks in directions section

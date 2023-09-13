@@ -4,13 +4,13 @@ Takes 0.5 hours.
 Makes 2-3 servings.
 
 ## Ingredients
-2 medium tomatoes
-0.5 pound green beans
-2 cloves garlic
-fresh ginger
-0.5 jalapeno pepper
-1 teaspoon cumin
-1 tablespoon olive oil
+* 2 medium tomatoes
+* 0.5 pound green beans
+* 2 cloves garlic
+* fresh ginger
+* 0.5 jalapeno pepper
+* 1 teaspoon cumin
+* 1 tablespoon olive oil
 
 ## Directions
 Mince the garlic, ginger, and jalapeno.  Remove the skins and mince/puree the tomatoes.  (A food processor is helpful for this part.)
