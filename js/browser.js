@@ -90,6 +90,13 @@ function ShowRecipe(recipe) {
     oldResult.replaceWith(resultDiv);
 }
 
+function ShowAllRecipes() {
+    let ids = recipe_data.map(recipe => recipe.id)
+    MakeResultList(ids, recipe_data);
+    let recipe = recipe_data[ids[0]];
+    ShowRecipe(recipe);
+}
+
 function SetupResults(resultids) {
     MakeResultList(resultids, recipe_data);
 
@@ -98,6 +105,8 @@ function SetupResults(resultids) {
 }
 
 function doSearch() {
+    event.preventDefault(); // prevent page reloading
+    console.log("hello?");
     let searchtext = document.getElementById("searchtext");
     if (searchtext.value !== "") {
         let resultids = Search(searchtext.value);
@@ -108,7 +117,10 @@ function doSearch() {
 
 function SetupPage() {
     let searchbutton = document.getElementById("searchbutton");
-    searchbutton.addEventListener("click", doSearch);
+    //searchbutton.addEventListener("click", doSearch);
+    document.addEventListener("submit", doSearch);
+
+    ShowAllRecipes();
 }
 
 function ReadRecipes() {

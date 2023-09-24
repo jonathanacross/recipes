@@ -14,6 +14,7 @@ body {
         display:inline-block;
     }
     #searchtext {
+        vertical-align: top;
         width:290px; 
         height:23px; 
         margin:0px;
@@ -26,13 +27,15 @@ body {
     }
     #searchbutton {
         width:40px; 
-        background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg");
+        margin:0px;
+        background-image: url("magnifying_glass.svg");
         background-size: 13px;
         background-repeat: no-repeat;
         background-position: 10px center;
     }
 
     .button {
+        vertical-align: top;
         height: 27px; 
         font-size:1.0em; 
         border: 1px solid #6E4A26; 
@@ -95,6 +98,10 @@ body {
         padding: 5px;
         font-size: 2em;
         float: left;
+    }
+
+    #searchform {
+        display: flex;
     }
 
     #searchbar {
