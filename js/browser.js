@@ -106,7 +106,6 @@ function SetupResults(resultids) {
 
 function doSearch() {
     event.preventDefault(); // prevent page reloading
-    console.log("hello?");
     let searchtext = document.getElementById("searchtext");
     if (searchtext.value !== "") {
         let resultids = Search(searchtext.value);
@@ -117,7 +116,6 @@ function doSearch() {
 
 function SetupPage() {
     let searchbutton = document.getElementById("searchbutton");
-    //searchbutton.addEventListener("click", doSearch);
     document.addEventListener("submit", doSearch);
 
     ShowAllRecipes();
