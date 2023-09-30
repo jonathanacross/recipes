@@ -122,6 +122,12 @@ body {
         background: #FFFF00;
     }
     .unselected {}
+    .tag {
+        border-radius: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
+        background: #FC8D3D;
+    }
 }
 @media print {
     #topbar, #searchbar, #resultlist, .hidden {

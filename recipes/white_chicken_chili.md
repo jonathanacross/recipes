@@ -22,3 +22,5 @@ Yields 7 servings.
 ## Directions
 
 In a large sauce pan saute the chicken, onion, and garlic powder in oil until chicken is no longer pink.  Add beans, broth, chilies, and seasonings.  Bring to a boil.  Reduce heat, simmer.  Uncover for 30 minutes.  Remove from heat, Stir in the sour cream and cream.  Serve immdiately. 
+
+#soups

@@ -28,3 +28,5 @@ Heat the oven to 425 degrees.
 To make the crust, mix the flour and salt, then cut in the shortening with a pastry knife.  Add water slowly until it holds together, but isn’t gummy.  Use slightly more than half the dough to make the bottom crust, and put in an ungreased pie pan.  Add the filling, and then top with the second crust.  Seal the top and bottom crusts together, fluting the edges.  Cut leaf shapes from the top crust.
 
 Bake for 15-20 minutes, then add some strips of aluminum foil on top to prevent excessive browning, and continue baking for 25 minutes.  I recommend putting a sheet of foil on the bottom of the oven to catch any dribbles of filling.
+
+#desserts

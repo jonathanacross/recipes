@@ -48,6 +48,7 @@
     var rx_row = /.*\n/g;
     var rx_cell = /\||(.*?[^\\])\|/g;
     var rx_heading = /(?=^|>|\n)([>\s]*?)(#{1,6}) (.*?)( #*)? *(?=\n|$)/g;
+    var rx_tag = /(?<!#)(#[a-zA-Z0-9_]+)/g;
     var rx_para = /(?=^|>|\n)\s*\n+([^<]+?)\n+\s*(?=\n|<|$)/g;
     var rx_stash = /-\d+\uf8ff/g;
 
@@ -152,6 +153,11 @@
 
     // paragraph
     replace(rx_para, function(all, content) { return element('p', unesc(highlight(content))) });
+
+    // tag
+    replace(rx_tag, function (all, tag) {
+        return '<span class=tag>' + tag + '</span>';
+    });
 
     // stash
     replace(rx_stash, function(all) { return stash[parseInt(all)] });

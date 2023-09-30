@@ -26,3 +26,5 @@ To make the cream cheese frosting,
 Stir together one 3 ounce package of cream cheese, 1/4 tsp of vanilla and 2 1/2 tbsp regular frozen apple juice concentrate (thawed). Spread over the top of the cake once it's cool.
 
 Source: http://www.homemade-baby-food-recipes.com/healthy-first-birthday-cake-recipes.html#ixzz3HB59zlKB
+
+#desserts

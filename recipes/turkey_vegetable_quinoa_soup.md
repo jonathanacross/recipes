@@ -24,3 +24,5 @@ Heat 2 Tbsp olive oil in large, heavy-bottomed stockpot over medium-low heat.  
 Add the rest of the olive oil, once hot add onion and cook until tender, about 5 minutes.  Add the garlic, and cook for 2-3 minutes.  Add the carrots, celery, zucchini, and green beans and continue to cook for 4 to 5 minutes, stirring occasionally.
 
 Add the vegetable broth, diced tomatoes, bay leaves, thumb, and basil.  Reduce the heat to low, cover, and cook until the vegetables are fork tender, approximately 25 to 30 minutes.  Stir in the cooked quinoa and season with salt and pepper, to taste.  Serve warm.
+
+#soups

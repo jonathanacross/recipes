@@ -23,3 +23,4 @@ Bring the mashed strawberries and juice to a low boil and gradually add 1 cup su
 
 Chill 2 hours and serve with oodles of whipped cream on top or vanilla ice cream on the side.
 
+#desserts

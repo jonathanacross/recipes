@@ -29,3 +29,5 @@ Meanwhile, chop the onion, celery, red pepper, and carrots.  Mince the garlic.  
 Add the rice to the veggies and sauté until the rice is translucent.  Drain and rinse the garbanzo beans. Add the chicken broth, bay leaf, garbanzo beans, green chilis, and chicken breasts. Add the cumin and salt and pepper to taste.
 
 Simmer for 30 minutes, and serve with the pepper jack cheese grated on top.
+
+#soups

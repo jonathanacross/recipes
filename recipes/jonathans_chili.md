@@ -30,3 +30,4 @@ Saute the beef, onion, and garlic slowly in the olive oil.  Add the green pepper
 
 Excellent with cornbread.  Optional good toppings for the chili: sour cream, shredded cheese, chopped scallions, shredded lettuce, chopped tomatoes, diced avocado or crumbled corn chips.
 
+#soups
