@@ -8,7 +8,7 @@ function ParseMarkdown(recipeMarkdown, id) {
         name: "ERROR: RECIPE HAS NO NAME",
         raw_markown: "",
         html: "",
-        tags: []
+        hashtags: []
     };
 
     // Read the recipe title
@@ -19,21 +19,21 @@ function ParseMarkdown(recipeMarkdown, id) {
         }
     }
 
-    // Extract any tags
-    var rx_tag = /(?<!#)(#[a-zA-Z0-9_]+)/g;
-    const tags = recipeMarkdown.match(rx_tag);
+    // Extract any hashtags
+    var rx_hashtag = /(?<=\s)(#[a-zA-Z0-9_]+)/g;
+    const hashtags = recipeMarkdown.match(rx_hashtag);
 
     recipeData.raw_markdown = recipeMarkdown;
     recipeData.html = markdown(recipeMarkdown);
-    recipeData.tags = tags;
+    recipeData.hashtags = hashtags;
     return recipeData;
 }
 
-function IndexTags(recipe_data) {
-    const all_tags = new Set(recipe_data.map(r => r.tags)
-                                        .flat()
-                                        .filter(x => x)); // remove nulls
-    return all_tags;
+function IndexHashTags(recipe_data) {
+    const all_hashtags = new Set(recipe_data.map(r => r.hashtags)
+                                            .flat()
+                                            .filter(x => x)); // remove nulls
+    return all_hashtags;
 }
 
 function ParseRecipes(responses) {
@@ -45,7 +45,7 @@ function ParseRecipes(responses) {
 
         recipe_data.forEach(function (doc) { this.add(doc) }, this)
     });
-    tag_data = IndexTags(recipe_data);
+    hashtag_data = IndexHashTags(recipe_data);
 }
 
 // returns an ordered list of recipe ids

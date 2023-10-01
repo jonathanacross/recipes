@@ -48,7 +48,7 @@
     var rx_row = /.*\n/g;
     var rx_cell = /\||(.*?[^\\])\|/g;
     var rx_heading = /(?=^|>|\n)([>\s]*?)(#{1,6}) (.*?)( #*)? *(?=\n|$)/g;
-    var rx_tag = /(?<!#)(#[a-zA-Z0-9_]+)/g;
+    var rx_hashtag = /(?<=\s|<p>)#[a-zA-Z0-9_]+/g;
     var rx_para = /(?=^|>|\n)\s*\n+([^<]+?)\n+\s*(?=\n|<|$)/g;
     var rx_stash = /-\d+\uf8ff/g;
 
@@ -136,6 +136,7 @@
 		return '<a href="' + p1 + '">' + unesc(highlight(p1)) + '</a>';
 	});
 
+
     // table
     replace(rx_table, function(all, table) {
         var sep = table.match(rx_thead)[1];
@@ -154,9 +155,9 @@
     // paragraph
     replace(rx_para, function(all, content) { return element('p', unesc(highlight(content))) });
 
-    // tag
-    replace(rx_tag, function (all, tag) {
-        return '<span class=tag>' + tag + '</span>';
+    // hashtag
+    replace(rx_hashtag, function (hashtag) {
+        return '<span class=hashtag>' + hashtag + '</span>';
     });
 
     // stash
