@@ -7,7 +7,8 @@ function ParseMarkdown(recipeMarkdown, id) {
         id: id,
         name: "ERROR: RECIPE HAS NO NAME",
         raw_markown: "",
-        html: ""
+        html: "",
+        tags: []
     };
 
     // Read the recipe title
@@ -18,9 +19,21 @@ function ParseMarkdown(recipeMarkdown, id) {
         }
     }
 
+    // Extract any tags
+    var rx_tag = /(?<!#)(#[a-zA-Z0-9_]+)/g;
+    const tags = recipeMarkdown.match(rx_tag);
+
     recipeData.raw_markdown = recipeMarkdown;
     recipeData.html = markdown(recipeMarkdown);
+    recipeData.tags = tags;
     return recipeData;
+}
+
+function IndexTags(recipe_data) {
+    const all_tags = new Set(recipe_data.map(r => r.tags)
+                                        .flat()
+                                        .filter(x => x)); // remove nulls
+    return all_tags;
 }
 
 function ParseRecipes(responses) {
@@ -31,7 +44,8 @@ function ParseRecipes(responses) {
         this.field('raw_markdown')
 
         recipe_data.forEach(function (doc) { this.add(doc) }, this)
-    })
+    });
+    tag_data = IndexTags(recipe_data);
 }
 
 // returns an ordered list of recipe ids
@@ -84,7 +98,11 @@ function SelectResult(id, recipe) {
 function ShowRecipe(recipe) {
     let resultDiv = document.createElement("div");
     resultDiv.id = 'recipe';
-    resultDiv.innerHTML = recipe.html;
+    if (recipe === undefined) {
+        resultDiv.innerHTML = "No matching recipes found.";
+    } else {
+        resultDiv.innerHTML = recipe.html;
+    }
 
     let oldResult = document.getElementById("recipe");
     oldResult.replaceWith(resultDiv);
