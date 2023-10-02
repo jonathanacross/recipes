@@ -32,3 +32,4 @@ Marinade the chicken in lemon juice, salt, and pepper.  Make the dressing.  Gril
 
 For the dressing, mix everything together and blend in a food processor or blender.  Refrigerate until needed.
 
+#salads

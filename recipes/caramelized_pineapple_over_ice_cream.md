@@ -22,3 +22,5 @@ Meanwhile, chop the nuts and toast them in an oven at 325 degree until golden br
 Remove the skillet from heat and pour the rum over the top of the pineapple mix. At this point you may light the skillet on fire, for effect, or skip to the next step. I like fire and theatrics, but it really isn't needed for this dish.
 
 To serve, scoop vanilla ice cream into bowls, top with the warm pineapple. The pineapple can be quite sweet, so take that into account when scooping. Serve immediately as the ice cream starts to melt. You should have enough for 6-8 people.
+
+#desserts

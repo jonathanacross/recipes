@@ -16,3 +16,5 @@ Heat oil in heavy large saucepan over medium–high heat. Add onions, celery, ca
 Transfer 2 cups soup (mostly solids) to blender and puree until smooth. Return puree to soup in pan; thin soup with more broth by 1/4 cupfuls, if too thick. Season with salt, pepper, and a splash of vinegar, if desired. Ladle soup into bowls. Garnish with celery leaves.
 
 Read More http://www.epicurious.com/recipes/food/views/French-Lentil-Soup-236772#ixzz1jT9GuAlq
+
+#soups

@@ -7,7 +7,8 @@ function ParseMarkdown(recipeMarkdown, id) {
         id: id,
         name: "ERROR: RECIPE HAS NO NAME",
         raw_markown: "",
-        html: ""
+        html: "",
+        hashtags: []
     };
 
     // Read the recipe title
@@ -18,9 +19,21 @@ function ParseMarkdown(recipeMarkdown, id) {
         }
     }
 
+    // Extract any hashtags
+    var rx_hashtag = /(?<=\s)(#[a-zA-Z0-9_]+)/g;
+    const hashtags = recipeMarkdown.match(rx_hashtag);
+
     recipeData.raw_markdown = recipeMarkdown;
     recipeData.html = markdown(recipeMarkdown);
+    recipeData.hashtags = hashtags;
     return recipeData;
+}
+
+function IndexHashTags(recipe_data) {
+    const all_hashtags = new Set(recipe_data.map(r => r.hashtags)
+                                            .flat()
+                                            .filter(x => x)); // remove nulls
+    return all_hashtags;
 }
 
 function ParseRecipes(responses) {
@@ -31,7 +44,8 @@ function ParseRecipes(responses) {
         this.field('raw_markdown')
 
         recipe_data.forEach(function (doc) { this.add(doc) }, this)
-    })
+    });
+    hashtag_data = IndexHashTags(recipe_data);
 }
 
 // returns an ordered list of recipe ids
@@ -84,7 +98,11 @@ function SelectResult(id, recipe) {
 function ShowRecipe(recipe) {
     let resultDiv = document.createElement("div");
     resultDiv.id = 'recipe';
-    resultDiv.innerHTML = recipe.html;
+    if (recipe === undefined) {
+        resultDiv.innerHTML = "No matching recipes found.";
+    } else {
+        resultDiv.innerHTML = recipe.html;
+    }
 
     let oldResult = document.getElementById("recipe");
     oldResult.replaceWith(resultDiv);
@@ -95,6 +113,24 @@ function ShowAllRecipes() {
     MakeResultList(ids, recipe_data);
     let recipe = recipe_data[ids[0]];
     ShowRecipe(recipe);
+}
+
+function ShowAllHashTags() {
+    let searchbar = document.getElementById("searchbar");
+
+    // clear old results
+    // while (searchbar.hasChildNodes()) {
+    //     searchbar.removeChild(searchbar.lastChild);
+    // }
+
+    let tags_list = document.createElement("ul");
+    for (tag of hashtag_data) {
+        let item = document.createElement("li");
+        item.innerText = tag;
+        item.className = "hashtag";
+        tags_list.appendChild(item);
+    }
+    searchbar.appendChild(tags_list);
 }
 
 function SetupResults(resultids) {
@@ -118,6 +154,7 @@ function SetupPage() {
     let searchbutton = document.getElementById("searchbutton");
     document.addEventListener("submit", doSearch);
 
+    ShowAllHashTags();
     ShowAllRecipes();
 }
 
