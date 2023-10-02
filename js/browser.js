@@ -115,6 +115,24 @@ function ShowAllRecipes() {
     ShowRecipe(recipe);
 }
 
+function ShowAllHashTags() {
+    let searchbar = document.getElementById("searchbar");
+
+    // clear old results
+    // while (searchbar.hasChildNodes()) {
+    //     searchbar.removeChild(searchbar.lastChild);
+    // }
+
+    let tags_list = document.createElement("ul");
+    for (tag of hashtag_data) {
+        let item = document.createElement("li");
+        item.innerText = tag;
+        item.className = "hashtag";
+        tags_list.appendChild(item);
+    }
+    searchbar.appendChild(tags_list);
+}
+
 function SetupResults(resultids) {
     MakeResultList(resultids, recipe_data);
 
@@ -136,6 +154,7 @@ function SetupPage() {
     let searchbutton = document.getElementById("searchbutton");
     document.addEventListener("submit", doSearch);
 
+    ShowAllHashTags();
     ShowAllRecipes();
 }
 
